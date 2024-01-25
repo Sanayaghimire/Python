@@ -29,4 +29,35 @@ print("Hey "+names[6].title()+ ", I would like to invite you to dinner tonight a
 print("Hey "+names[-1].title()+ ", I would like to invite you to dinner tonight at mine.\n\n")
 
 
+print("Sorry, I can invite only two person")
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+popped_names = names.pop()
+print("I'm sorry "+popped_names+", I cannot invite you to dinner tonight.")
+print(names)
+
+print("\n\n")
+
+print(names[0].title()+", I would like to invite you to dinner tonight.")
+print(names[1].title()+", I would like to invite you to dinner tonight.")
+
+del names[0]
+print(names)
+del names[1]
+print(names)
+
+
 
