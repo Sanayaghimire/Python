@@ -54,10 +54,39 @@ print("\n\n")
 print(names[0].title()+", I would like to invite you to dinner tonight.")
 print(names[1].title()+", I would like to invite you to dinner tonight.")
 
+
+len(names)
+print("The number of people I am inviting for dinner is "+str(len(names)))
+
 del names[0]
 print(names)
-del names[1]
-print(names)
 
 
+print("\n\n\n")
+
+
+#organizing list
+visit_places=['italy', 'bali', 'tomso', 'uppermustang', 'abc']
+print(visit_places)
+
+print(sorted(visit_places))
+
+print(visit_places)
+
+print(sorted(visit_places, reverse=True))
+
+print(visit_places)
+visit_places.reverse()
+print(visit_places)
+
+visit_places.reverse()
+print(visit_places)
+
+print("\n")
+
+visit_places.sort()
+print(visit_places)
+
+visit_places.sort(reverse=True)
+print(visit_places)
 
