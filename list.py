@@ -90,3 +90,18 @@ print(visit_places)
 visit_places.sort(reverse=True)
 print(visit_places)
 
+print("\n\n")
+#working with list(looping)
+pizzas=['chicken', 'mashroom', 'pepperoni']
+for pizza in pizzas:
+    print(pizza)
+    print("I like "+pizza+" pizza so much.")
+print("I really love pizza. \n\n")
+
+
+animals=['dog','cat','rabbit']
+for animal in animals:
+    print(animal.title())
+    print("A "+ animal.title()+" would make a great pet.")
+print("These animals are domestic animals.")
+
