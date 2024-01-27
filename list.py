@@ -137,3 +137,26 @@ print("\n\n")
 
 cubes=[value**3 for value in range(1,11)]
 print(cubes)
+
+print(("\n\n"))
+#slicing through list
+
+books=['alchemist','the theft book', '1964','the subconcious mind', 'things falls a part','invisible man']
+print(books)
+print("The first three items in the list are:" + str(books[:3]))
+print("The middle items in the list are:"+str(books[2:5]))
+print("The last items in the list are:"+str(books[-3:]))
+
+print(("\n\n"))
+my_pizza=['mushroom','pepperoni','chiken', 'cheese']
+friend_pizza=pizzas[:]
+print(pizzas)
+print(friend_pizza)
+print("\n")
+my_pizza.append('onions')
+for pizza in my_pizza:
+    print("My favourite pizzas are: "+pizza)
+print("\n\n")
+friend_pizza.append('bacon')
+for pizza in friend_pizza:
+    print("My friend pizzas are: "+pizza)
