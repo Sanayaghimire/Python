@@ -103,5 +103,37 @@ animals=['dog','cat','rabbit']
 for animal in animals:
     print(animal.title())
     print("A "+ animal.title()+" would make a great pet.")
-print("These animals are domestic animals.")
+print("These animals are domestic animals.\n\n\n")
 
+for value in range(1,21):
+    print(value)
+
+print("\n\n")
+#for value in range(1,1000001):
+  #  print(value)
+#print(max(range(1,1000001)))
+# print(min(range(1,1000001)))
+#print(sum(range(1,1000001)))
+
+
+odd_numbers= list(range(1, 21, 2))
+for value in odd_numbers:
+    print(value)
+
+print("\n\n")
+multiples=[]
+for value in range(3,31, 3):
+   multiples.append(value)
+print(multiples)
+print("\n\n")
+
+
+cubes=[]
+for value in range(1,11):
+    cubes.append(value**3)
+print(cubes)
+print("\n\n")
+
+
+cubes=[value**3 for value in range(1,11)]
+print(cubes)
